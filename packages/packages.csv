@@ -168,7 +168,6 @@ Microsoft.Extensions.TypeNameHelper.Sources,noship,exclude
 Microsoft.Extensions.WebEncoders,ship,include
 Microsoft.Net.Http.Headers,ship,include
 Microsoft.Net.Http.Server,ship,include
-Microsoft.Net.WebSockets.Server,ship,include
 Microsoft.Owin.Security.Interop,ship,exclude
 Microsoft.VisualStudio.Web.BrowserLink.Loader,ship,exclude
 PageGenerator,noship,exclude
