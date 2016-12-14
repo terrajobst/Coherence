@@ -87,8 +87,8 @@ Microsoft.AspNetCore.StaticFiles,ship,include
 Microsoft.AspNetCore.TestHost,ship,exclude
 Microsoft.AspNetCore.Testing,noship,exclude
 Microsoft.AspNetCore.WebSockets.Client,noship,exclude
-Microsoft.AspNetCore.WebSockets.Protocol,ship,include
-Microsoft.AspNetCore.WebSockets.Server,ship,include
+Microsoft.AspNetCore.WebSockets.Protocol,noship,exclude
+Microsoft.AspNetCore.WebSockets.Server,noship,exclude
 Microsoft.AspNetCore.WebUtilities,ship,include
 Microsoft.Data.Sqlite,ship,include
 Microsoft.EntityFrameworkCore,ship,include
@@ -168,7 +168,7 @@ Microsoft.Extensions.TypeNameHelper.Sources,noship,exclude
 Microsoft.Extensions.WebEncoders,ship,include
 Microsoft.Net.Http.Headers,ship,include
 Microsoft.Net.Http.Server,ship,include
-Microsoft.Net.WebSockets.Server,ship,include
+Microsoft.Net.WebSockets.Server,noship,exclude
 Microsoft.Owin.Security.Interop,ship,exclude
 Microsoft.VisualStudio.Web.BrowserLink.Loader,ship,exclude
 PageGenerator,noship,exclude
